@@ -25,7 +25,7 @@ function rotateAnimation(el, speed){
     }
 
 }
-let el = document.getElementById("buttonSpin");
-el.onclick = function(){
-    el.addEventListener('click', rotateAnimation("prizeWheel", 5));
+let elButton = document.getElementById("buttonSpin");
+elButton.onclick = function(){
+    elButton.addEventListener('click', rotateAnimation("prizeWheel", 5));
 }

@@ -1,0 +1,33 @@
+body {
+  background-color: bisque; }
+
+.redBlock {
+  background-color: #ed3732;
+  width: 500px;
+  height: 200px; }
+
+.yellowBlock {
+  background-color: #fbd771;
+  width: 500px;
+  height: 500px;
+  position: absolute; }
+  .yellowBlock #prizeWheel {
+    padding: 50px;
+    position: absolute; }
+
+.buttons #circleButton {
+  padding: 165px;
+  position: absolute; }
+.buttons #buttonSpin {
+  font-weight: bolder;
+  padding: 30px;
+  font-size: 17px;
+  background-color: white;
+  border: 4px grey;
+  position: relative;
+  border-radius: 50%;
+  bottom: -198px;
+  left: 39%;
+  height: 90px; }
+
+/*# sourceMappingURL=style.css.map */
